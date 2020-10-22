@@ -1,6 +1,6 @@
-#   Hello Foliant
+# Hello Foliant
 
-##  Build Instructions
+## Build Instructions
 
 English version:
 
@@ -12,4 +12,10 @@ Russian version:
 
 ```bash
 $ docker-compose run --rm -e FOLIANT_FLAGS=ru foliant make site
+```
+
+## View the Docs
+
+```bash
+$ python -m http.server -d hello-foliant.mkdocs
 ```
