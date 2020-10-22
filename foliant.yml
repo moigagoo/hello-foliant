@@ -3,6 +3,9 @@ slug: hello-foliant
 
 chapters:
     - index.md
+    - Foo:
+        -   foo/index.md
+        -   foo/bar.md
 
 preprocessors:
     - macros:
@@ -10,3 +13,7 @@ preprocessors:
             localized: <if flags="en"><include src="!project_path src/en/{path}"></include></if><if flags="ru"><include src="!project_path src/ru/{path}"></include></if>
     - flags
     - includes
+
+backend_config:
+    mkdocs:
+        mkdocs.yml: !include mkdocs.yml

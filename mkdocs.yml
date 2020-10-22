@@ -1,0 +1,6 @@
+repo_name: moigagoo/hello-foliant
+repo_url: https://github.com/moigagoo/hello-foliant
+edit_uri: edit/master/src/
+
+theme:
+    name: material

@@ -3,3 +3,4 @@ foliantcontrib.mkdocs
 foliantcontrib.includes
 foliantcontrib.flags
 foliantcontrib.macros
+mkdocs-material
