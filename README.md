@@ -2,21 +2,14 @@
 
 ##  Build Instructions
 
-With Docker Compose:
+English version:
 
 ```bash
-# Site:
-$ docker-compose run --rm foliant make site
-# PDF:
-$ docker-compose run --rm foliant make pdf
+$ docker-compose run --rm -e FOLIANT_FLAGS=en foliant make site
 ```
 
-With pip and stuff (requires Python 3.6+, Pandoc, and TeXLive):
+Russian version:
 
 ```bash
-$ pip install -r requirements.txt
-# Site:
-$ foliant make site
-# PDF:
-$ foliant make pdf
+$ docker-compose run --rm -e FOLIANT_FLAGS=ru foliant make site
 ```
