@@ -1,0 +1,11 @@
+title: Hello Foliant
+
+chapters:
+    - index.md
+
+preprocessors:
+    - macros:
+        macros:
+            localized: <if flags="en"><include src="!project_path src/en/{path}"></include></if><if flags="ru"><include src="!project_path src/ru/{path}"></include></if>
+    - flags
+    - includes
