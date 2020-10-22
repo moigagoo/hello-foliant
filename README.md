@@ -1,6 +1,6 @@
 # Hello Foliant
 
-## Build Instructions
+## Build the Docs
 
 English version:
 
