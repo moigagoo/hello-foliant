@@ -1,6 +1,5 @@
 # List the required Foliant backends and extensions, as well as other Python packages, e.g. MkDocs theme:
+foliantcontrib.meta
+foliantcontrib.superlinks
 foliantcontrib.mkdocs
-foliantcontrib.includes
-foliantcontrib.flags
-foliantcontrib.macros
 mkdocs-material
